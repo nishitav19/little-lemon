@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    background-color: #FFF4EB;
+    font-family: 'Roboto Slab', serif;
+    margin: 3rem 5% 3rem 5%;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#logo {
+    width: 20rem;
+}
+
+.offers {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.offers-text {
+    text-align: center;
+    background-color: #495E57;
+    color: #FFF4EB;
+    padding: 1rem;
+}
+
+#banner {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+#banner-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 0.5rem;
+    left: 1.5rem;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.button {
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    /* margin-left: 0.5em; */
+}
+
+.button:hover {
+    background-color: black;
+}
+
+header > img {
+    display: block;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;  
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #495E57;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #495E57;
+    color: #FFF4EB;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    position: sticky;
+    top: 100vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    flex: 1;
+}
+
+#footer-logo {
+    width: 12rem;
+    float: right;
+    padding: 0 1rem 0 0;
+}
+
+#about {
+    text-align: justify;
+    margin-top: 2rem;
+    padding: 2rem; 
+    border: 0.01rem solid #495E57;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto 3rem;
+    margin: 1rem;
+    padding: 0 0 0 1.5rem;
+    background-color: #D3D3D3;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 1rem 0 0 0;
+}
+
+#contact div {
+    text-align: center;
+}
+
+.contact-container {
+    background-color: #D3D3D3;
+    border: 1px solid #495E57;
+    margin: 1rem;
+    padding: 1rem;
+}
